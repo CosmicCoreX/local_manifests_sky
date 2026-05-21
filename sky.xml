@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Device : Redmi 12 5g/PocO M6 Pro 5g (sky) -->
+<manifest>
+    <!-- fetching sources -->
+    <remote name="CosmicCoreX" fetch="https://github.com/CosmicCoreX" revision="lineage-23.2" />
+    <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-23.2" />
+    <remote name="anonytry" fetch="https://github.com/anonytry" revision="lineage-23.2" />
+
+    <!-- Device -->
+    <project remote="CosmicCoreX" name="device_xiaomi_sky" path="device/xiaomi/sky" revision="16" />
+
+    <!-- Kernel -->
+    <project remote="CosmicCoreX" name="kernel_xiaomi_sky" path="kernel/xiaomi/sky" revision="bkl" />
+
+    <!-- Kernel Module -->
+    <project remote="CosmicCoreX" name="kernel_xiaomi_sky-modules" path="kernel/xiaomi/sm8450-modules" revision="bkl" />
+
+    <!-- Vendor -->
+    <project remote="CosmicCoreX" name="kernel_xiaomi_sky" path="vendor/xiaomi/sky" revision="bkl" />
+
+    <!-- Hardware -->
+    <project remote="lineage" name="android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-23.2" />
+
+    <!--Dolby -->
+    <project remote="anonytry" name="android_hardware_dolby" path="hardware/dolby" revision="lineage-23.1" />
+</manifest>
